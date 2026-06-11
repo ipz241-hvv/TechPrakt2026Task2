@@ -112,3 +112,45 @@ body {
 .news-link:hover {
     background-color: #1d4ed8;
 }
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Перемикання теми */
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #111827;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+    user-select: none;
+}
+
+body:has(#theme-toggle:checked) {
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
+
+body:has(#theme-toggle:checked) .news-card {
+    background-color: #1e293b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body:has(#theme-toggle:checked) .news-title {
+    color: #f8fafc;
+}
+
+body:has(#theme-toggle:checked) .news-text {
+    color: #cbd5e1;
+}
+
+body:has(#theme-toggle:checked) .site-header {
+    background-color: #1e293b;
+}
