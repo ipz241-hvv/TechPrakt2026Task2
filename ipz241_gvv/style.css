@@ -22,7 +22,7 @@ body {
 }
 
 .site-header {
-    background-color: #1e3a8a;
+    background-color: #1f46af;
     color: #ffffff;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -39,7 +39,7 @@ body {
 }
 
 .site-footer {
-    background-color: #1f2937;
+    background-color: #30435d;
     color: #9ca3af;
     text-align: center;
     padding: 15px 0;
@@ -99,7 +99,7 @@ body {
 .news-link {
     display: inline-block;
     align-self: flex-start;
-    background-color: #2563eb;
+    background-color: #3673f7;
     color: #ffffff;
     text-decoration: none;
     padding: 8px 16px;
@@ -110,7 +110,7 @@ body {
 }
 
 .news-link:hover {
-    background-color: #1d4ed8;
+    background-color: #0d47e9;
 }
 
 .header-flex {
